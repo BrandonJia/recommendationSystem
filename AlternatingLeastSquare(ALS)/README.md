@@ -6,14 +6,14 @@ The whole system is based on PySpark, and Rank Ordering Error Metric (ROEM), the
 
 # Content
 
-1. ROEM.py
+1. [ROEM.py](https://github.com/BrandonJia/recommendationSystem/blob/master/AlternatingLeastSquare(ALS)/ROEM.py)
 
    This function is for using ROEM to evaluate the performance of the model.
 
-2. ROEM_cv.py
+2. [ROEM_cv.py](https://github.com/BrandonJia/recommendationSystem/blob/master/AlternatingLeastSquare(ALS)/ROEM_cv.py)
 
    This function is for using ROEM to cross validate performance of the model with different combination of hyperparameters, and return the optimal setting of hyperparameters.
 
-3. to_long.py
+3. [to_long.py](https://github.com/BrandonJia/recommendationSystem/blob/master/AlternatingLeastSquare(ALS)/to_long.py)
 
    This function is used to convert wide format to long format. This is because of the requirements of ML package in PySpark.
