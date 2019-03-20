@@ -4,7 +4,7 @@ This document is for alternating least square matrix factorization model used in
 
 The whole system is based on PySpark, and Rank Ordering Error Metric (ROEM), the metric used to evaluate the model, is not defined.  So two functions, ROEM.py and ROEM_cv.py, have been written.
 
-# content
+# Content
 
 1. ROEM.py
 
